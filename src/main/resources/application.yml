@@ -15,6 +15,9 @@ spring:
     post: 6379
     password: 123321
     database: 0
+  cache:
+    redis:
+      time-to-live: 1800000 #设置缓存数据的过期时间
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
@@ -24,4 +27,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: D:\panjinsheng\Documents\development\项目实战\瑞吉外卖项目\资料\图片资源
+  path: D:\img\
