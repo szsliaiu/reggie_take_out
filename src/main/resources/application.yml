@@ -11,7 +11,7 @@ spring:
       username: root
       password: root
   redis:
-    host: 192.168.189.130
+    host: 192.168.10.130
     post: 6379
     password: 123321
     database: 0
@@ -24,4 +24,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: D:\img\
+  path: D:\panjinsheng\Documents\development\项目实战\瑞吉外卖项目\资料\图片资源
